@@ -43,7 +43,6 @@ public class Anagram {
 
         char[] myChars = word.toCharArray();
         int wordLength = word.length();
-
         HashMap<Character, Integer> myCharDict = new HashMap<>(wordLength);
 
         for(int i=0; i < wordLength; i++) {
