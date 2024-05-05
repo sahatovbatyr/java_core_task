@@ -23,10 +23,10 @@ public class Anagram_STREAM_API {
             System.out.println("the words is NOT anagram");
         }
 
-        Map<String, Long> map1 = (Map)Arrays.stream(word1.split("")).collect(Collectors.groupingBy((ch) -> {
+        Map<String, Long> map1 = Arrays.stream(word1.split("")).collect(Collectors.groupingBy((ch) -> {
             return ch;
         }, Collectors.counting()));
-        Map<String, Long> map2 = (Map)Arrays.stream(word1.split("")).collect(Collectors.groupingBy((ch) -> {
+        Map<String, Long> map2 = Arrays.stream(word1.split("")).collect(Collectors.groupingBy((ch) -> {
             return ch;
         }, Collectors.counting()));
 
