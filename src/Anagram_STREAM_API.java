@@ -34,7 +34,7 @@ public class Anagram_STREAM_API {
         for(  String key: map1.keySet() ) {
 
             if ( !map2.containsKey(key) || map1.get(key) != map2.get(key) ) {
-                System.out.println("NOT anagram ...");
+                System.out.println("NOT anagram ... bbb");
                 return;
             }
 
