@@ -6,11 +6,9 @@ public class QuickSort {
     public static void main(String[] args ) {
 
         int[] list= {2, 12, 5, 48, 0, 4};
-
         quickSort(list, 0, 5);
-
         Arrays.stream(list)
-                .forEach( x-> { System.out.print(x+" "); });
+                .forEach( x->  System.out.print(x+" ") );
 
     }
 
@@ -58,7 +56,6 @@ public class QuickSort {
         if(start < end)
         {
             int pivot = partition(list, start, end);
-
             quickSort(list, start, pivot - 1);
             quickSort(list, pivot + 1, end);
         }
