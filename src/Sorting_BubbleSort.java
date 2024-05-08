@@ -5,20 +5,20 @@ public class Sorting_BubbleSort {
 
     public static void main(String[] args ) {
 
-        int[] myNumbers = {20,12,5,4,40,1,8,20};
+        int[] myNumbers = {3,4,3,20,12,5,4,40,1,8,20};
 
         System.out.println("Before:"+Arrays.toString(myNumbers));
         sort( myNumbers, myNumbers.length);
-        System.out.println("After:"+Arrays.toString(myNumbers ));
+        System.out.println(" After:"+Arrays.toString(myNumbers ));
 
 
     }
 
-    public static void sort( int[] arr, int lastPosition ) {
+    public static void sort( int[] arr, int workingLenth ) {
 
-        if( lastPosition<=0) { return; }
+        if( workingLenth<=0) { return; }
 
-        for(int i=0; i<lastPosition-1; i++) {
+        for(int i=0; i<workingLenth-1; i++) {
 
             if( arr[i]>arr[i+1]) {
                 int temp = arr[i+1];
@@ -28,7 +28,7 @@ public class Sorting_BubbleSort {
 
         }
 
-        sort(arr, lastPosition-1);
+        sort(arr, workingLenth-1);
     }
 
 
