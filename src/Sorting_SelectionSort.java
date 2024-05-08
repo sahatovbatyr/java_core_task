@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-public class Sorting_BubleSort {
+public class Sorting_SelectionSort {
 
     public  static void main(String[] args ) {
 
