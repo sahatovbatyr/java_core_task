@@ -1,7 +1,6 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class QuickSortMy {
+public class Sorting_QuickSortMy {
 
 
     public static void main(String[] args ) {
