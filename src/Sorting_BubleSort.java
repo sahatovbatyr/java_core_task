@@ -1,10 +1,9 @@
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-public class NumberSorting_Buble {
+public class Sorting_BubleSort {
 
     public  static void main(String[] args ) {
 
