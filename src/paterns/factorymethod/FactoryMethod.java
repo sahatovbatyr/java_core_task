@@ -1,9 +1,9 @@
-package paterns;
+package paterns.factorymethod;
 
-import paterns.interfaces.IntDeveloperFactory;
-import paterns.factories.JavaDeveloperFactory;
-import paterns.factories.PhpDeveloperFactory;
-import paterns.interfaces.IntDeveloper;
+import paterns.factorymethod.interfaces.IntDeveloperFactory;
+import paterns.factorymethod.factories.JavaDeveloperFactory;
+import paterns.factorymethod.factories.PhpDeveloperFactory;
+import paterns.factorymethod.interfaces.IntDeveloper;
 
 public class FactoryMethod {
 

@@ -1,6 +1,6 @@
-package paterns.models;
+package paterns.factorymethod.models;
 
-import paterns.interfaces.IntDeveloper;
+import paterns.factorymethod.interfaces.IntDeveloper;
 
 public class PhpDevepoer implements IntDeveloper {
 

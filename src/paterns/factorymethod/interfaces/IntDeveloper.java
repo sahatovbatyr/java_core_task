@@ -1,4 +1,4 @@
-package paterns.interfaces;
+package paterns.factorymethod.interfaces;
 
 public interface IntDeveloper {
 
