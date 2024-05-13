@@ -1,6 +1,8 @@
-package paterns;
+package paterns.models;
 
-public class PhpDevepoer implements IntDeveloper{
+import paterns.interfaces.IntDeveloper;
+
+public class PhpDevepoer implements IntDeveloper {
 
     @Override
     public void writeCode() {

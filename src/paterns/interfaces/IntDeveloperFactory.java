@@ -1,4 +1,4 @@
-package paterns;
+package paterns.interfaces;
 
 public interface IntDeveloperFactory {
 

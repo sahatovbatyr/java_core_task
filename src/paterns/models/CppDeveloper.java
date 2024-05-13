@@ -1,6 +1,8 @@
-package paterns;
+package paterns.models;
 
-public class CppDeveloper implements IntDeveloper{
+import paterns.interfaces.IntDeveloper;
+
+public class CppDeveloper implements IntDeveloper {
     @Override
     public void writeCode() {
 

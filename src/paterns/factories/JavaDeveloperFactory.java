@@ -1,6 +1,10 @@
-package paterns;
+package paterns.factories;
 
-public class JavaDeveloperFactory implements IntDeveloperFactory{
+import paterns.interfaces.IntDeveloper;
+import paterns.interfaces.IntDeveloperFactory;
+import paterns.models.JavaDeveloper;
+
+public class JavaDeveloperFactory implements IntDeveloperFactory {
 
     @Override
     public IntDeveloper createDeveloper() {

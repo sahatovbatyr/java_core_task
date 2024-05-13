@@ -1,6 +1,8 @@
-package paterns;
+package paterns.models;
 
-public class JavaDeveloper implements  IntDeveloper{
+import paterns.interfaces.IntDeveloper;
+
+public class JavaDeveloper implements IntDeveloper {
 
     @Override
     public void writeCode() {
