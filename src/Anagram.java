@@ -28,7 +28,7 @@ public class Anagram {
 
             for(  char key: myCharDict1.keySet() ) {
 
-                if ( !myCharDict2.containsKey(key) || myCharDict1.get(key) != myCharDict2.get(key) ) {
+                if ( !myCharDict2.containsKey(key) || myCharDict1.get(key).equals( myCharDict2.get(key) ) ) {
                     System.out.println("NOT anagram ...");
                     return;
                 }
