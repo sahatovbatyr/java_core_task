@@ -1,3 +1,8 @@
+example: **java.lang.Cloneable interface:** Allows objects to be cloned. <br>
+While it's not a full implementation of the Prototype pattern, <br>
+it provides a way to create new objects by copying an existing object.
+
+
 Применение паттерна Prototype особенно ценно в следующих случаях:
 
 **Создание объектов с большими затратами:**\

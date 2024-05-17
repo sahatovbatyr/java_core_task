@@ -1,3 +1,6 @@
+Example: **java.util.Arrays.asList(T... a)**. Converts an array into a List.
+
+
 **шаблон проектирования - "Адаптер".**
 
 Промышленный пример применения шаблона Adapter может быть,<br>   
