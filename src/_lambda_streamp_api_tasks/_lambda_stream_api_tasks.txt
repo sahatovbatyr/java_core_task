@@ -1,0 +1,44 @@
+Lambda Expressions
+1.Sorting a list of strings by length
+
+2.Write a program that uses a lambda expression to sort a list of strings by their length.
+ Create a list of strings and sort it based on the length of each string.
+Filtering a list of numbers
+
+3.Write a lambda expression to filter a list of numbers to retain only the even numbers.
+ Create a list of numbers and filter it using a lambda expression to keep only the even numbers.
+Applying a function to each element of a list
+
+4.Use a lambda expression to apply a function that squares each element of a list of numbers.
+Create a list of numbers and apply a function to square each element using a lambda expression.
+Counting the number of strings that satisfy a condition
+
+5.Write a lambda expression to count the number of strings in a list that start with a specific letter.
+Create a list of strings and count how many of them start with a given letter.
+Combining strings from a list into a single string
+
+Use a lambda expression to combine all strings from a list into a single string, separated by commas.
+Create a list of strings and join them into one string using a comma as a separator.
+Stream API
+Finding the maximum value in a list
+
+Write a program that uses the Stream API to find the maximum value in a list of numbers.
+ Create a list of numbers and find the maximum value using the Stream API.
+Creating a list of unique words from text
+
+Use the Stream API to create a list of unique words from a string of text.
+ Split the text into words and create a list of unique words.
+Grouping strings by their length
+
+Write a program that groups strings from a list by their length using the Stream API.
+ Create a list of strings and group them by the length of each string.
+Creating a frequency map of words
+
+Use the Stream API to create a map where the key is a word and the value is
+the number of occurrences of that word in the text. Split the text into words and
+count the occurrences of each word.
+Transforming a list of objects into a map
+
+Write a program that uses the Stream API to transform a list of objects into a map,
+where the key is one of the fields of the object. Create a list of objects and
+convert it into a map, using one field as the key and another field as the value.
